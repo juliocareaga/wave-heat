@@ -38,6 +38,6 @@ The main script is **wave-heat-example2.py**, and the simulation corresponds to 
 
 
 
-The required mesh
+The required mesh is also contained in this repository and corresponds to **mesh-new.xdmf**, note that the file **mesh-new.h5** is also needed.
 
 
