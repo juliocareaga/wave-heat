@@ -16,7 +16,7 @@ conda activate fenicsx-env
 conda install -c conda-forge fenics-dolfinx mpich pyvista
 ```
 
-The following Python packages are need: **mpi4py**, **numpy** and **scipy**. The code [**wave-heat-error.py**](https://github.com/juliocareaga/wave-heat/blob/main/wave-heat-error.py)
+The following Python packages are need: **mpi4py**, **numpy** and **scipy**. The main python codes are 3: **wave-heat-error.py** for the error computations, **wave-heat-example2.py** for the Westervelt example, and **wave-heat-example3.py** for the Kuznetsov example.
 
 There are 3 scripts, one for each example: 
 
