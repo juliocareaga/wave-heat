@@ -4,3 +4,4 @@ This Git-Hub repository contains the codes to reproduce the numerical examples s
 
 > Authors: J. Careaga, B. Dörich and V. Nikolić.
 
+[V. Nikolić](https://vanjanikolic.net/)
