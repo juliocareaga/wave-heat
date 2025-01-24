@@ -36,7 +36,7 @@ The error plots can be obtained with **Matlab** or **Octabe** making use of **pl
 
 # Example 2
 
-The main script is **wave-heat-example2.py**, and the simulation corresponds to the Westervelt equation with a manufactured initial pressure. The output corresponds to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which contain the pair of solutions (pressure and temperature) at the time points saved. The xdmf file can be loaded with **Paraview**, and the procedure to obtain the images is described next:
+The main script is **wave-heat-example2.py**, and the simulation corresponds to the Westervelt equation with a manufactured initial pressure. The output corresponds to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which contain the pair of solutions (pressure and temperature) at the time points saved. The xdmf file can be loaded with **Paraview**, and the procedure to obtain the images for the pressure is described next:
 
 ```console
 Use calculator:  coords + (0.025+0.6e-7*pressure)*kHat
