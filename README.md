@@ -28,7 +28,6 @@ The sequence of space discretizations are set through the variable Ms (array), a
 
 ```console
 ("W", "Euler", 1), ("W", "BDF2", 2), ("W", "BDF2", 3)
-
 ("K", "Euler", 1), ("K", "BDF2", 2), ("K", "BDF2", 3)
 ```
 The error plots can be obtained with **Matlab** or **Octabe** making use of **ploterror.m** changing the variable $\color{purple}\texttt{modeltype}$ as before.
