@@ -8,13 +8,13 @@
 @@ text in purple (and bold)@@
 ```
 
-<h1 style="color: red">text</h1>
 
 - ![#f03c15](aa) 
 
 """diff +a """
 
 ```html
+<h1 style="color: red">text</h1>
  <font color="red">This text is red!</font>
 ```
 
