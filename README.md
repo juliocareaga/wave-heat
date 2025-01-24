@@ -7,7 +7,7 @@ This Git-Hub repository contains the codes to reproduce the numerical examples s
 
 The numerical schemes are programmed in Python version 3.12.1, making use of the open source software [**FEniCSx**](https://fenicsproject.org/) version 0.7.3, installation via Anaconda:
 
-```bash 
+```console 
 conda create -n fenicsx-env
 conda activate fenicsx-env
 conda install -c conda-forge fenics-dolfinx mpich pyvista
