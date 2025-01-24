@@ -1,4 +1,4 @@
-# 📌 Code paper: \textsf{"Finite element discretization of nonlinear models of ultrasound heating"} <span style="color:red;">Word up</span>
+# 📌 Code paper: ''' {"Finite element discretization of nonlinear models of ultrasound heating"} '''
 
 <h1 style="color: red">text</h1>
 
