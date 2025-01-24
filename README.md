@@ -49,3 +49,6 @@ Lighting: Interpolation Flat, Speculator: 1, Specular Power: 4, Ambient: 0, Diff
 Then, set the angle of the camera using **camera-sims.pvcc** and the images are obtained taking screenshots for the desired time points. The plots for the temperature are obtained similarly without making use of the calculator and changing to a different colormap. The labels corresponding to the variable are simply added with Latex. The required mesh is also contained in this repository and corresponds to **mesh-new.xdmf**. Note that the file **mesh-new.h5** is also needed.
 
 
+# Example 3
+
+The main script is **wave-heat-example3.py**, and the simulation corresponds to the Kuznetsov equation with a manufactured source term. The output corresponds to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which contain the pair of solutions (pressure and temperature) at the time points saved as in example 2. The plots are obtained following the same steps as in Example2.
