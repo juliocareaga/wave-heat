@@ -40,17 +40,12 @@ The main script is **wave-heat-example2.py**, and the simulation corresponds to 
 
 ```console
 Use calculator:  coords + (0.025+0.6e-7*pressure)*kHat
-
 Click on: Coordinates Result, Tcoords
-
 Use clip: Origin: [0,0,0.002], Normal: [0,0,-2]
-
 Center the image
-
 Color bar: Horizontal, Any location, Position [0.3, 0.25], font 30
-
 Lighting: Interpolation Flat, Speculator: 1, Specular Power: 4, Ambient: 0, Diffuse: 0.9
 ```
-To set the angle of the camera we use **camera-sims.pvcc**. The required mesh is also contained in this repository and corresponds to **mesh-new.xdmf**. Note that the file **mesh-new.h5** is also needed.
+Then, set the angle of the camera using **camera-sims.pvcc** and the images are obtained taking screenshots for the desired time points. The required mesh is also contained in this repository and corresponds to **mesh-new.xdmf**. Note that the file **mesh-new.h5** is also needed.
 
 
