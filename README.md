@@ -24,12 +24,12 @@ Code **wave-heat-error.py** requires setting $\color{purple}\texttt{modeltype}$ 
 ```console
 python3 wave-heat-error.py
 ```
-The sequence of space discretizations are set through the variable Ms (array), and the time steps divisions are accounted with Ns (array). The output corresponds to a $\texttt{\color{brown}mat}$ file, which contains vector of $L^2$-errors at the final times for each time step. After computing the errors for ($\color{purple}\texttt{modeltype}$, $\color{purple}\texttt{timescheme}$, $\color{purple}\texttt{ell}$) equalS to
+The sequence of space discretizations are set through the variable Ms (array), and the time steps divisions are accounted with Ns (array). The output corresponds to a $\texttt{\color{brown}mat}$ file, which contains vector of $L^2$-errors at the final times for each time step. After computing the errors for ($\color{purple}\texttt{modeltype}$, $\color{purple}\texttt{timescheme}$, $\color{purple}\texttt{ell}$) equals to
 
 ```console
-($\color{teal}\texttt{"W"}$, $\color{teal}\texttt{"Euler"}$, $\color{teal}\texttt{1}$), ($\color{teal}\texttt{"W"}$, $\color{teal}\texttt{"BDF2"}$, $\color{teal}\texttt{2}$), ($\color{teal}\texttt{"W"}$, $\color{teal}\texttt{"BDF2"}$, $\color{teal}\texttt{3}$)
+("W", "Euler", 1), ("W", "BDF2", 2), ("W", "BDF2", 3)
 
-($\color{teal}\texttt{"K"}$, $\color{teal}\texttt{"Euler"}$, $\color{teal}\texttt{1}$), ($\color{teal}\texttt{"K"}$, $\color{teal}\texttt{"BDF2"}$, $\color{teal}\texttt{2}$), ($\color{teal}\texttt{"K"}$, $\color{teal}\texttt{"BDF2"}$, $\color{teal}\texttt{3}$)
+("K", "Euler", 1), ("K", "BDF2", 2), ("K", "BDF2", 3)
 ```
 The error plots can be obtained with **Matlab** or **Octabe** making use of **ploterror.m** changing the variable $\color{purple}\texttt{modeltype}$ as before.
 
