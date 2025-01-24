@@ -7,7 +7,7 @@ This Git-Hub repository contains the codes to reproduce the numerical examples s
 
 The numerical schemes (Implicit Euler, BDF2 and Newmark in time) are programmed in Python version 3.12.1, making use of the open source software [**FEniCSx**](https://fenicsproject.org/) version 0.7.3, installation of the latest version with [**Anaconda**](https://docs.anaconda.com/anaconda/install/) via:
 
-```console 
+```properties 
 conda create -n fenicsx-env
 conda activate fenicsx-env
 conda install -c conda-forge fenics-dolfinx mpich pyvista
