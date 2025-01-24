@@ -30,9 +30,9 @@ The sequence of space discretizations are set through the variable Ms (array), a
 ("W", "Euler", 1), ("W", "BDF2", 2), ("W", "BDF2", 3)
 ("K", "Euler", 1), ("K", "BDF2", 2), ("K", "BDF2", 3)
 ```
-The error plots can be obtained with **Matlab** or **Octabe** making use of **ploterror.m** changing the variable $\color{purple}\texttt{modeltype}$ as before.
+The error plots can be obtained with **Matlab** or **Octabe** making use of **ploterror.m** changing the variable $\color{purple}\texttt{modeltype}$ as before. Note that this script requires the mat files produced from with the input values explained above.
 
 # Example 2: Westervelt equation
-The main script is **wave-heat-example2.py** and the output corresponds to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which can be loaded with **Paraview**.
+The main script is **wave-heat-example2.py** and the output corresponds to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which can be loaded with **Paraview**. The required mesh
 
 
