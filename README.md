@@ -18,7 +18,9 @@ conda install -c conda-forge fenics-dolfinx mpich pyvista
 
 The following Python packages are need: **mpi4py**, **numpy** and **scipy**. The main python codes are 3: **wave-heat-error.py** for the error computations, **wave-heat-example2.py** for the Westervelt example, and **wave-heat-example3.py** for the Kuznetsov example.
 
-# **wave-heat-error.py** 
+# **Error computations** 
+
+Code **wave-heat-error.py** requires setting *modeltype* which can assume the strings 'W' for the Westervelt model, and 'K' for the case of Kuznetsov's equation. The sequence of space discretizations are set through the variable Ms (array), and the time steps divisions are accounted with Ns (array). The output corresponds to a '.mat' file, which contains the errors 
 
 There are 3 scripts, one for each example: 
 
