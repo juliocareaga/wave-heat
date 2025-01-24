@@ -2,9 +2,9 @@
 
 - ![#f03c15](aa) 
 
-<font color="red">This text is red!</font>
+# <font color="red">This text is red!</font>
 
-@@#f03c15 text
+# @@#f03c15 text
 
 
 This Git-Hub repository contains the codes to reproduce the numerical examples shown in Section 7 of the paper entitled "Finite element discretization of nonlinear models of ultrasound heating".\\
