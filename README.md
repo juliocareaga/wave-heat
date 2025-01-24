@@ -46,6 +46,6 @@ Center the image
 Color bar: Horizontal, Any location, Position [0.3, 0.25], font 30
 Lighting: Interpolation Flat, Speculator: 1, Specular Power: 4, Ambient: 0, Diffuse: 0.9
 ```
-Then, set the angle of the camera using **camera-sims.pvcc** and the images are obtained taking screenshots for the desired time points. The required mesh is also contained in this repository and corresponds to **mesh-new.xdmf**. Note that the file **mesh-new.h5** is also needed.
+Then, set the angle of the camera using **camera-sims.pvcc** and the images are obtained taking screenshots for the desired time points. The plots for the temperature are obtained similarly without making use of the calculator and changing to a different colormap. The labels corresponding to the variable are simply added with Latex. The required mesh is also contained in this repository and corresponds to **mesh-new.xdmf**. Note that the file **mesh-new.h5** is also needed.
 
 
