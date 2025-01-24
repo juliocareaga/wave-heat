@@ -1,5 +1,13 @@
 # 📌 Code paper: ''' {"Finite element discretization of nonlinear models of ultrasound heating"} '''
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
 <h1 style="color: red">text</h1>
 
 - ![#f03c15](aa) 
