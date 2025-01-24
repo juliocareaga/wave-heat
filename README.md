@@ -1,4 +1,4 @@
-# 📌 Code paper: ```diff {"Finite element discretization of nonlinear models of ultrasound heating"} ```
+# 📌 Code paper: ```diff - "Finite element discretization of nonlinear models of ultrasound heating" ```
 
 ```diff
 - text in red
