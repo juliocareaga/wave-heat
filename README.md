@@ -1,7 +1,6 @@
 # 📌 Code paper: 
-```diff 
-"Finite element discretization of nonlinear models of ultrasound heating"
-```
+#$\color{red}"Finite$ $\color{red}element$ $\color{red}discretization$ of nonlinear models of ultrasound heating"
+
 
 
 
