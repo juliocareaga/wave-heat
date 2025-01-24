@@ -16,7 +16,8 @@ conda activate fenicsx-env
 conda install -c conda-forge fenics-dolfinx mpich pyvista
 ```
 
-The following packages need to be instaled
+The following Python packages are need: **mpi4py**, **numpy** and **scipy**.
+
 There are 3 scripts, one for each example: 
 
 
