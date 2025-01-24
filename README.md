@@ -1,5 +1,5 @@
 # 📌 Code paper: 
-# $\color{red}\textrm{"Finite}$ $\color{red}element$ $\color{red}discretization$ of nonlinear models of ultrasound heating"
+# $\color{red}\textbf{"Finite}$ $\color{red}element$ $\color{red}discretization$ of nonlinear models of ultrasound heating"
 
 
 
