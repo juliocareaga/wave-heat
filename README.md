@@ -24,8 +24,8 @@ Code **wave-heat-error.py** requires setting $\color{purple}\texttt{modeltype}$ 
 ```console
 python3 wave-heat-error.py
 ```
-The sequence of space discretizations are set through the variable Ms (array), and the time steps divisions are accounted with Ns (array). The output corresponds to a $\texttt{\color{brown}mat}$ file, which contains vector of $L^2$-errors at the final times for each time step. After computing the errors for ($\color{purple}\texttt{modeltype}$,$\color{purple}\texttt{timescheme}$,$\color{purple}\texttt{ell}$) equal to 
-($\color{teal}\texttt{"W"}$, $\color{teal}\texttt{"Euler"}$, $\color{teal}\texttt{1}$)
+The sequence of space discretizations are set through the variable Ms (array), and the time steps divisions are accounted with Ns (array). The output corresponds to a $\texttt{\color{brown}mat}$ file, which contains vector of $L^2$-errors at the final times for each time step. After computing the errors for ($\color{purple}\texttt{modeltype}$, $\color{purple}\texttt{timescheme}$, $\color{purple}\texttt{ell}$) equal to 
+($\color{teal}\texttt{"W"}$, $\color{teal}\texttt{"Euler"}$, $\color{teal}\texttt{1}$), ($\color{teal}\texttt{"W"}$, $\color{teal}\texttt{"BDF2"}$, $\color{teal}\texttt{2}$), ($\color{teal}\texttt{"W"}$, $\color{teal}\texttt{"BDF2"}$, $\color{teal}\texttt{3}$), and ($\color{teal}\texttt{"W"}$, $\color{teal}\texttt{"Euler"}$, $\color{teal}\texttt{1}$), ($\color{teal}\texttt{"K"}$, $\color{teal}\texttt{"BDF2"}$, $\color{teal}\texttt{2}$), ($\color{teal}\texttt{"K"}$, $\color{teal}\texttt{"BDF2"}$, $\color{teal}\texttt{3}$)
 
 
 
