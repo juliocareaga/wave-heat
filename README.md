@@ -20,7 +20,7 @@ The following Python packages are need: **mpi4py**, **numpy** and **scipy**. The
 
 # **Error computations** 
 
-Code **wave-heat-error.py** requires setting $\color{purple}\texttt{modeltype}$ which can assume the strings 'W' for the Westervelt model, and 'K' for the case of Kuznetsov's equation, $\color{purple}\texttt{time_operator}$. The sequence of space discretizations are set through the variable Ms (array), and the time steps divisions are accounted with Ns (array). The output corresponds to a '.mat' file, which contains the errors 
+Code **wave-heat-error.py** requires setting $\color{purple}\texttt{modeltype}$ which can assume the strings 'W' for the Westervelt model, and 'K' for the case of Kuznetsov's equation, $\color{purple}\texttt{timescheme}$. The sequence of space discretizations are set through the variable Ms (array), and the time steps divisions are accounted with Ns (array). The output corresponds to a '.mat' file, which contains the errors 
 
 There are 3 scripts, one for each example: 
 
