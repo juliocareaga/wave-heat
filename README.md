@@ -13,7 +13,10 @@
 - ![#f03c15](aa) 
 
 """diff +a """
-# <font color="red">This text is red!</font>
+
+```html
+ <font color="red">This text is red!</font>
+```
 
 # @@#f03c15 text
 
