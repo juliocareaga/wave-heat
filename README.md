@@ -2,4 +2,4 @@
 
 This Git-Hub repository contains the codes to reproduce the numerical examples shown in Section 7 of the paper entitled "Finite element discretization of nonlinear models of ultrasound heating".
 
-> **Authors:** [**J. Careaga**](https://www.researchgate.net/profile/Julio-Careaga),    [B. Dörich](https://github.com/BenjaminDoerich)    and    [V. Nikolić](https://vanjanikolic.net/)
+> **Authors:** [**J. Careaga**](https://scholar.google.com/citations?user=-SYWkN8AAAAJ&hl=es), [**B. Dörich**](https://scholar.google.com/citations?user=h9b6i00AAAAJ&hl=en) and [**V. Nikolić**](https://scholar.google.com/citations?user=73kZ9csAAAAJ&hl=en)
