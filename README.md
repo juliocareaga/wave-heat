@@ -36,7 +36,7 @@ The error plots can be obtained with **Matlab** or **Octabe** making use of **pl
 
 # Example 2
 
-The main script is **wave-heat-example2.py**, and the simulation corresponds to the Westervelt equation with a manufactured initial pressure. The output corresponds to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which contain the pair of solutions (pressure and temperature) at the time points saved. The xdmf file can be loaded with **Paraview**, and the procedure to obtain the images for the pressure is described next:
+The main script is **wave-heat-example2.py**, and the simulation corresponds to the Westervelt equation with a manufactured initial pressure. The outputs correspond to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which contain the pair of solutions (pressure and temperature) at the time points saved. The xdmf file can be loaded with **Paraview**, and the procedure to obtain the images for the pressure is described next:
 
 ```console
 Use calculator:  coords + (0.025+0.6e-7*pressure)*kHat
@@ -51,4 +51,4 @@ Then, set the angle of the camera using **camera-sims.pvcc** and the images are 
 
 # Example 3
 
-The main script is **wave-heat-example3.py**, and the simulation corresponds to the Kuznetsov equation with a manufactured source term. The output corresponds to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which contain the pair of solutions (pressure and temperature) at the time points saved as in example 2. The plots are obtained following the same steps as in Example2.
+The main script is **wave-heat-example3.py**, and the simulation corresponds to the Kuznetsov equation with a manufactured source term. The outputs correspond to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which contain the pair of solutions (pressure and temperature) at the time points saved as in example 2. The plots are obtained following the same steps as in Example2.
