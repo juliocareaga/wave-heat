@@ -32,7 +32,12 @@ The sequence of space discretizations are set through the variable Ms (array), a
 ```
 The error plots can be obtained with **Matlab** or **Octabe** making use of **ploterror.m** changing the variable $\color{purple}\texttt{modeltype}$ as before. Note that this script requires the mat files produced with the input values explained above.
 
-# Example 2: Westervelt equation
-The main script is **wave-heat-example2.py** and the output corresponds to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which can be loaded with **Paraview**. The required mesh
+# Example 2
+
+The main script is **wave-heat-example2.py**, and the simulation corresponds to the Westervelt equation with a manufactured initial pressure. The output corresponds to $\texttt{\color{brown}xdmf}$ and $\texttt{\color{brown}h5}$ files, which contain the pair of solutions (pressure and temperature) at the time points saved. The xdmf file can be loaded with **Paraview**, and the procedure to obtain the images is described next:
+
+
+
+The required mesh
 
 
