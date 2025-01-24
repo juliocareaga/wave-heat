@@ -24,7 +24,7 @@ Code **wave-heat-error.py** requires setting $\color{purple}\texttt{modeltype}$ 
 ```console
 python3 wave-heat-error.py
 ```
-The sequence of space discretizations are set through the variable Ms (array), and the time steps divisions are accounted with Ns (array). The output corresponds to a $\texttt{\color{brown}mat}$ file, which contains vector of $L^2$ errors at the final times for each time step.
+The sequence of space discretizations are set through the variable Ms (array), and the time steps divisions are accounted with Ns (array). The output corresponds to a $\texttt{\color{brown}mat}$ file, which contains vector of $L^2$-errors at the final times for each time step. The 
 
 
 
