@@ -49,7 +49,7 @@ Lighting: Interpolation Flat, Speculator: 1, Specular Power: 4, Ambient: 0, Diff
 Then, set the angle of the camera using **camera-sims.pvcc** and the images are obtained taking screenshots for the desired time points. The plots for the temperature are obtained similarly without making use of the calculator and changing to a different colormap. The labels corresponding to the variable are simply added with Latex. The required mesh is also contained in this repository and corresponds to **mesh-new.xdmf**. Note that the file **mesh-new.h5** is also needed.
 
 
-https://github.com/user-attachments/assets/ef8ced18-8d48-40e9-9371-390525bde43d
+<img src="https://github.com/user-attachments/assets/ef8ced18-8d48-40e9-9371-390525bde43d" width="50">
 
 
 
